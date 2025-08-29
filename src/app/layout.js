@@ -2,14 +2,20 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 
 export const metadata = {
-  title: "MONSWAP Docs",
-  description: "A premium, high‑performance decentralized exchange for the Monad ecosystem.",
-  metadataBase: new URL("https://docs.monswap.app"),
+  title: "Twatter.Army Docs",
+  description: "The world's most advanced Nostr client. Modern social networking powered by censorship-resistant protocols.",
+  metadataBase: new URL("https://twatter.army"),
   icons: {
-    icon: "/mon-2.svg",
-    shortcut: "/mon-2.svg",
-    apple: "/mon-2.svg",
+    icon: "/pixelmonsters.png",
+    shortcut: "/pixelmonsters.png",
+    apple: "/pixelmonsters.png",
   },
+  openGraph: {
+    title: "Twatter.Army Documentation",
+    description: "The world's most advanced Nostr client. Modern social networking powered by censorship-resistant protocols.",
+    url: "https://twatter.army",
+    images: [{ url: "/pixelmonsters.png" }]
+  }
 };
 
 export default function RootLayout({ children }) {

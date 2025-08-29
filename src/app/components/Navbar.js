@@ -43,14 +43,14 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 py-4 grid grid-cols-3 items-center">
         <div className="flex items-center gap-6">
-          <a href="https://monswap.app" className="text-lg tracking-tight font-semibold text-accent-gradient" rel="noopener noreferrer">monswap</a>
+          <a href="https://twatter.army" className="text-lg tracking-tight font-semibold text-accent-gradient" rel="noopener noreferrer">twatter</a>
         </div>
         <div className="flex items-center justify-center">
           <SearchBar />
         </div>
         <div className="flex items-center justify-end gap-3">
           <a
-            href="https://x.com/monswapapp"
+            href="https://x.com/twatter_army"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="X (Twitter)"
@@ -61,7 +61,7 @@ export default function Navbar() {
             </svg>
           </a>
           <a
-            href="https://discord.com/invite/QnrjnCyU7Q"
+            href="https://discord.gg/twatter"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Discord"
@@ -121,10 +121,10 @@ export default function Navbar() {
                   <div className="grid gap-2">
                     <Link href="/docs" className={linkClass('/docs')}>Docs</Link>
                     <div className="flex items-center gap-3 pt-2">
-                      <a href="https://x.com/monswapapp" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)" className="inline-flex items-center justify-center w-9 h-9 rounded-full hover:bg-white/5 text-foreground/90">
+                      <a href="https://x.com/twatter_army" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)" className="inline-flex items-center justify-center w-9 h-9 rounded-full hover:bg-white/5 text-foreground/90">
                         <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><path d={siX.path} /></svg>
                       </a>
-                      <a href="https://discord.com/invite/QnrjnCyU7Q" target="_blank" rel="noopener noreferrer" aria-label="Discord" className="inline-flex items-center justify-center w-9 h-9 rounded-full hover:bg-white/5 text-foreground/90">
+                      <a href="https://discord.gg/twatter" target="_blank" rel="noopener noreferrer" aria-label="Discord" className="inline-flex items-center justify-center w-9 h-9 rounded-full hover:bg-white/5 text-foreground/90">
                         <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><path d={siDiscord.path} /></svg>
                       </a>
                     </div>

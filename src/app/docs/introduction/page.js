@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Introduction — MONSWAP Docs",
-  description: "Overview of MONSWAP and this documentation.",
+  title: "Introduction — Twatter.Army Docs",
+  description: "The world's most advanced Nostr client. Modern social networking powered by censorship-resistant protocols.",
   alternates: { canonical: "/docs/introduction" },
 }
 
@@ -9,74 +9,105 @@ export default function IntroductionPage() {
     <div className="rounded-2xl p-6">
       <h1 className="text-2xl font-semibold tracking-tight mb-3">Introduction</h1>
       <div className="docs-prose">
-        <p><em>Building durable liquidity and aligned incentives for Monad.</em></p>
+        <p><em>The world's most advanced Nostr client. Modern social networking powered by censorship-resistant protocols.</em></p>
 
         <h2>Overview</h2>
         <p>
-          Monswap is a ve(3,3) decentralized exchange built natively on the Monad blockchain. “VE”
-          refers to vote‑escrowed tokenomics, first popularized by Curve Finance, where users lock
-          tokens to gain governance power and economic benefits. The “(3,3)” concept, originating from
-          OlympusDAO and inspired by Nash equilibrium, models cooperative behavior: when participants
-          act in the protocol’s best interest (e.g., locking, voting, providing liquidity), total value
-          increases for everyone.
+          Twatter.Army is a cutting-edge social networking platform built on the Nostr protocol—a decentralized,
+          censorship-resistant communication standard. Unlike traditional social media platforms that rely on
+          centralized servers and corporate control, Twatter.Army empowers users with true ownership of their
+          data, identity, and social graph.
         </p>
         <p>
-          The ve(3,3) design, introduced by Andre Cronje (creator of Yearn Finance), aligns incentives
-          among liquidity providers, traders, and voters. By coupling emissions with governance and
-          long‑term commitment, the system aims to sustain deep liquidity, competitive pricing, and
-          durable rewards.
+          Built with modern web technologies including Next.js 14, TypeScript, and Tailwind CSS, Twatter.Army
+          delivers a premium user experience while maintaining the core principles of decentralization,
+          privacy, and user sovereignty that make Nostr revolutionary.
         </p>
 
         <blockquote>
-          Deep liquidity and aligned incentives are the foundation of a healthy DEX. ve(3,3) is designed
-          to reward those who commit capital and governance attention over time.
+          Social networking should belong to the people, not the platforms. Twatter.Army brings the future
+          of decentralized social media to life with uncompromising performance and user experience.
         </blockquote>
 
-        <h2>Governance controls</h2>
-        <p>Monswap’s ve‑governance focuses on two critical levers:</p>
+        <h2>Core Features</h2>
+        <p>Twatter.Army redefines social networking with these breakthrough capabilities:</p>
         <ul>
-          <li><strong>Direction of emissions</strong>: decide which liquidity pools receive incentives.</li>
-          <li><strong>Total emissions level</strong>: increase or decrease protocol‑wide emissions on an epoch basis.</li>
+          <li><strong>Passwordless Authentication</strong>: Advanced WebAuthn passkeys for seamless, secure login using platform authenticators.</li>
+          <li><strong>Unified Wallet Integration</strong>: Native NIP-07 support with seamless connections to Alby, nos2x, and Nostr Wallet ID.</li>
+          <li><strong>Advanced Search</strong>: Real-time search with NIP-50 full-text support, smart ranking by engagement and recency.</li>
+          <li><strong>Rich Media Support</strong>: Direct uploads to Vercel Blob with secure token gating and global CDN distribution.</li>
         </ul>
 
-        <h2>Game theory and incentives</h2>
-        <h3>Pool selection and APY</h3>
+        <h2>Technical Excellence</h2>
+        <h3>Modern Architecture</h3>
         <p>
-          Token holders direct emissions toward specific pools, boosting their APY. This can support new tokens,
-          emerging DeFi projects, or underserved pairs on Monad by attracting liquidity where it’s most useful.
+          Twatter.Army leverages the latest in web technology to deliver unparalleled performance:
         </p>
-
-        <h3>Dynamic emissions policy</h3>
-        <p>
-          Initial discussions favor aligning “tail emissions” with Monad’s growth over time. This setting is
-          adjustable each epoch—up, down, or unchanged—acknowledging market cycles and enabling prudent
-          incentive management during expansions or contractions.
-        </p>
-
-        <h3>Cooperative equilibrium (3,3)</h3>
-        <p>
-          When participants coordinate—locking, voting, and concentrating incentives—liquidity deepens,
-          slippage falls, and rewards become more sustainable. The protocol evolves toward a shared objective
-          that benefits all stakeholders.
-        </p>
-
-        <h3>Baseline scenario (0,0)</h3>
-        <p>
-          In the least cooperative case, the system functions like a standard AMM (e.g., Uniswap) with routine
-          swap fees but without ve(3,3)’s incentive alignment and governance‑driven emissions.
-        </p>
-
-        <h2>Why ve(3,3) on Monad?</h2>
         <ul>
-          <li><strong>Capital efficiency</strong>: emissions flow to the most useful pools, improving depth where demand is highest.</li>
-          <li><strong>Long‑term alignment</strong>: lockers gain governance power and rewards for sustained commitment.</li>
-          <li><strong>Composability</strong>: governance‑driven incentives guide ecosystem liquidity where it creates the most value.</li>
+          <li>Next.js 14 with App Router for optimal performance and SEO</li>
+          <li>TypeScript for type safety and developer experience</li>
+          <li>Tailwind CSS for responsive, accessible design</li>
+          <li>TanStack Query for intelligent caching and state management</li>
+          <li>Virtualized feeds for smooth scrolling with thousands of posts</li>
+        </ul>
+
+        <h3>Privacy & Security</h3>
+        <p>
+          Your data security is paramount. Twatter.Army implements enterprise-grade security measures:
+        </p>
+        <ul>
+          <li>End-to-end encryption for private messages</li>
+          <li>Server-side session verification with httpOnly cookies</li>
+          <li>Encrypted private key storage with AES-256</li>
+          <li>NIP-05 verification for trusted identities</li>
+        </ul>
+
+        <h3>Developer Experience</h3>
+        <p>
+          Built by developers, for developers. Twatter.Army features a modern development workflow:
+        </p>
+        <ul>
+          <li>Strict TypeScript configuration for reliability</li>
+          <li>Comprehensive API documentation and examples</li>
+          <li>Modular architecture with clear separation of concerns</li>
+          <li>Extensive test coverage and continuous integration</li>
+        </ul>
+
+        <h2>The Nostr Advantage</h2>
+        <p>
+          Nostr (Notes and Other Stuff Transmitted by Relays) represents a fundamental rethinking of social media:
+        </p>
+        <ul>
+          <li><strong>Censorship Resistance</strong>: No single entity can control or censor content</li>
+          <li><strong>Data Ownership</strong>: Users own their content, followers, and social graph</li>
+          <li><strong>Interoperability</strong>: Works seamlessly across different Nostr clients</li>
+          <li><strong>Global Network</strong>: Distributed relays ensure content availability worldwide</li>
+        </ul>
+
+        <h2>User Experience Innovation</h2>
+        <p>
+          Twatter.Army sets new standards for social media usability:
+        </p>
+        <ul>
+          <li><strong>Smart Search</strong>: Advanced query language with hashtag, user, and content type filtering</li>
+          <li><strong>Real-time Updates</strong>: Live streams and notifications without performance impact</li>
+          <li><strong>Mobile-First Design</strong>: Pull-to-refresh, swipe gestures, and touch-optimized interactions</li>
+          <li><strong>Accessibility</strong>: WCAG-compliant design with keyboard navigation and screen reader support</li>
+        </ul>
+
+        <h2>Why Twatter.Army?</h2>
+        <ul>
+          <li><strong>Performance</strong>: Lightning-fast loading and smooth interactions regardless of feed size</li>
+          <li><strong>Privacy</strong>: Your data stays yours—encrypted, decentralized, and under your control</li>
+          <li><strong>Innovation</strong>: Constantly evolving with cutting-edge features and user feedback</li>
+          <li><strong>Community</strong>: Built by and for the decentralized web community</li>
         </ul>
 
         <h2>TL; DR</h2>
         <p>
-          Monswap brings vote‑escrowed, game‑theoretic incentives to Monad. By coordinating emissions and governance,
-          the protocol seeks to cultivate deep, resilient liquidity and a healthier trading environment over the long run.
+          Twatter.Army is the social network for the decentralized future. Experience the freedom of
+          censorship-resistant communication with the polish and performance of modern web applications.
+          Join the revolution in social media ownership and control.
         </p>
       </div>
 
