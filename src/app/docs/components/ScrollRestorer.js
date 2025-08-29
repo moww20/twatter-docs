@@ -20,7 +20,7 @@ export default function ScrollRestorer() {
       if (ticking) return
       ticking = true
       requestAnimationFrame(() => {
-        try { sessionStorage.setItem(`monswap.scroll:${pathname}`, String(window.scrollY)) } catch {}
+        try { sessionStorage.setItem(`twatter.scroll:${pathname}`, String(window.scrollY)) } catch {}
         ticking = false
       })
     }
@@ -29,7 +29,7 @@ export default function ScrollRestorer() {
   }, [pathname])
 
   useEffect(() => {
-    const key = `monswap.scroll:${pathname}`
+    const key = `twatter.scroll:${pathname}`
     const raw = sessionStorage.getItem(key)
     const y = raw ? parseInt(raw, 10) : 0
     if (isPopRef.current && !Number.isNaN(y)) {

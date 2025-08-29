@@ -1,24 +1,24 @@
 import DocsShell from "./DocsShell"
 
 export const metadata = {
-  title: "MONSWAP Docs",
-  description: "Documentation for MONSWAP.",
+  title: "Twatter.Army Docs",
+  description: "Documentation for Twatter.Army - The world's most advanced Nostr client.",
   openGraph: {
-    title: "MONSWAP Docs",
-    description: "Documentation for MONSWAP.",
+    title: "Twatter.Army Docs",
+    description: "Documentation for Twatter.Army - The world's most advanced Nostr client.",
     url: "/docs",
-    siteName: "MONSWAP Docs",
+    siteName: "Twatter.Army Docs",
     images: [
-      { url: "/mon-2.svg", width: 1200, height: 630, alt: "MONSWAP" },
+      { url: "/pixelmonsters.png", width: 1200, height: 630, alt: "Twatter.Army" },
     ],
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "MONSWAP Docs",
-    description: "Documentation for MONSWAP.",
-    images: ["/mon-2.svg"],
+    title: "Twatter.Army Docs",
+    description: "Documentation for Twatter.Army - The world's most advanced Nostr client.",
+    images: ["/pixelmonsters.png"],
   },
 }
 
