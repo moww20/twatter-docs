@@ -11,10 +11,10 @@ export default function SetupTutorialPage() {
       <div className="docs-prose">
         <p><em>Complete step-by-step guide to set up your Twatter.Army account and get started with decentralized social networking.</em></p>
 
-        <div className="bg-blue-50 border-l-4 border-blue-400 p-4 mb-6">
+        <div className="bg-blue-500/10 border-l-4 border-blue-500 p-4 mb-6 rounded-r-lg">
           <div className="flex">
             <div className="ml-3">
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-blue-300">
                 <strong>Time to complete:</strong> 10-15 minutes<br/>
                 <strong>Prerequisites:</strong> Modern web browser, optional wallet extension
               </p>
@@ -33,8 +33,8 @@ export default function SetupTutorialPage() {
         <p>You have two main options for authentication:</p>
 
         <h3>Option A: Passkeys (Recommended for New Users)</h3>
-        <div className="bg-green-50 border-l-4 border-green-400 p-4 mb-4">
-          <p className="text-green-700"><strong>Best for:</strong> New users, maximum security and simplicity</p>
+        <div className="bg-green-500/10 border-l-4 border-green-500 p-4 mb-4 rounded-r-lg">
+          <p className="text-green-300"><strong>Best for:</strong> New users, maximum security and simplicity</p>
         </div>
 
         <ol>
@@ -56,8 +56,8 @@ export default function SetupTutorialPage() {
         </ul>
 
         <h3>Option B: External Wallet (For Existing Nostr Users)</h3>
-        <div className="bg-purple-50 border-l-4 border-purple-400 p-4 mb-4">
-          <p className="text-purple-700"><strong>Best for:</strong> Users with existing Nostr keys or advanced users</p>
+        <div className="bg-purple-500/10 border-l-4 border-purple-500 p-4 mb-4 rounded-r-lg">
+          <p className="text-purple-300"><strong>Best for:</strong> Users with existing Nostr keys or advanced users</p>
         </div>
 
         <h4>Install a NIP-07 Compatible Wallet</h4>
@@ -309,10 +309,10 @@ export default function SetupTutorialPage() {
           </div>
         </div>
 
-        <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4">
+        <div className="bg-yellow-500/10 border-l-4 border-yellow-500 p-4 rounded-r-lg">
           <div className="flex">
             <div className="ml-3">
-              <p className="text-sm text-yellow-700">
+              <p className="text-sm text-yellow-300">
                 <strong>Need help?</strong> Join our community on Discord for support and connect with other users.
                 <a href="https://discord.gg/twatter" className="text-accent-gradient hover:underline ml-1">Join Discord</a>
               </p>
@@ -328,34 +328,34 @@ export default function SetupTutorialPage() {
 
         <h2>Quick Reference</h2>
         <div className="overflow-x-auto">
-          <table className="min-w-full border-collapse border border-gray-300">
+          <table className="min-w-full border-collapse border border-white/20">
             <thead>
-              <tr className="bg-gray-50">
-                <th className="border border-gray-300 px-4 py-2 text-left">Action</th>
-                <th className="border border-gray-300 px-4 py-2 text-left">How To</th>
-                <th className="border border-gray-300 px-4 py-2 text-left">Keyboard Shortcut</th>
+              <tr className="bg-white/5">
+                <th className="border border-white/20 px-4 py-2 text-left text-foreground/90">Action</th>
+                <th className="border border-white/20 px-4 py-2 text-left text-foreground/90">How To</th>
+                <th className="border border-white/20 px-4 py-2 text-left text-foreground/90">Keyboard Shortcut</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td className="border border-gray-300 px-4 py-2">Search</td>
-                <td className="border border-gray-300 px-4 py-2">Click search bar or press /</td>
-                <td className="border border-gray-300 px-4 py-2">/</td>
+                <td className="border border-white/20 px-4 py-2 text-foreground/80">Search</td>
+                <td className="border border-white/20 px-4 py-2 text-foreground/80">Click search bar or press /</td>
+                <td className="border border-white/20 px-4 py-2 text-foreground/80">/</td>
               </tr>
-              <tr className="bg-gray-50">
-                <td className="border border-gray-300 px-4 py-2">New post</td>
-                <td className="border border-gray-300 px-4 py-2">Click composer or press N</td>
-                <td className="border border-gray-300 px-4 py-2">N</td>
+              <tr className="bg-white/5">
+                <td className="border border-white/20 px-4 py-2 text-foreground/80">New post</td>
+                <td className="border border-white/20 px-4 py-2 text-foreground/80">Click composer or press N</td>
+                <td className="border border-white/20 px-4 py-2 text-foreground/80">N</td>
               </tr>
               <tr>
-                <td className="border border-gray-300 px-4 py-2">Notifications</td>
-                <td className="border border-gray-300 px-4 py-2">Click bell icon</td>
-                <td className="border border-gray-300 px-4 py-2">None</td>
+                <td className="border border-white/20 px-4 py-2 text-foreground/80">Notifications</td>
+                <td className="border border-white/20 px-4 py-2 text-foreground/80">Click bell icon</td>
+                <td className="border border-white/20 px-4 py-2 text-foreground/80">None</td>
               </tr>
-              <tr className="bg-gray-50">
-                <td className="border border-gray-300 px-4 py-2">Profile</td>
-                <td className="border border-gray-300 px-4 py-2">Click avatar</td>
-                <td className="border border-gray-300 px-4 py-2">P</td>
+              <tr className="bg-white/5">
+                <td className="border border-white/20 px-4 py-2 text-foreground/80">Profile</td>
+                <td className="border border-white/20 px-4 py-2 text-foreground/80">Click avatar</td>
+                <td className="border border-white/20 px-4 py-2 text-foreground/80">P</td>
               </tr>
             </tbody>
           </table>

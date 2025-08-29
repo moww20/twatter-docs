@@ -265,10 +265,10 @@ export default function BrandPage() {
           Use it responsibly to help build a better, more open internet for everyone.
         </blockquote>
 
-        <div className="bg-blue-50 border-l-4 border-blue-400 p-4 mt-6">
+        <div className="bg-blue-500/10 border-l-4 border-blue-500 p-4 mt-6 rounded-r-lg">
           <div className="flex">
             <div className="ml-3">
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-blue-300">
                 <strong>Brand updates:</strong> Our brand guidelines evolve as Twatter.Army grows.
                 Check back regularly for updates and new resources.
               </p>

@@ -11,10 +11,10 @@ export default function PostingTutorialPage() {
       <div className="docs-prose">
         <p><em>Master the art of content creation on Twatter.Army. Learn to craft engaging posts, upload media, and build your audience.</em></p>
 
-        <div className="bg-blue-50 border-l-4 border-blue-400 p-4 mb-6">
+        <div className="bg-blue-500/10 border-l-4 border-blue-500 p-4 mb-6 rounded-r-lg">
           <div className="flex">
             <div className="ml-3">
-              <p className="text-sm text-blue-700">
+              <p className="text-sm text-blue-300">
                 <strong>Time to complete:</strong> 15-20 minutes<br/>
                 <strong>Prerequisites:</strong> Completed setup tutorial
               </p>
@@ -356,10 +356,10 @@ export default function PostingTutorialPage() {
           <li>Run joint giveaways or contests</li>
         </ul>
 
-        <div className="bg-green-50 border-l-4 border-green-400 p-4 my-6">
+        <div className="bg-green-500/10 border-l-4 border-green-500 p-4 my-6 rounded-r-lg">
           <div className="flex">
             <div className="ml-3">
-              <p className="text-sm text-green-700">
+              <p className="text-sm text-green-300">
                 <strong>Pro tip:</strong> The best content comes from authentic expression.
                 Share your genuine thoughts, experiences, and expertise. Quality always beats quantity.
               </p>
